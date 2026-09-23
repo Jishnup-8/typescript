@@ -1,77 +1,77 @@
-//string
-// let message : string = 'hello'
-// console.log(message);
+// string
+let message : string = 'hello'
+console.log(message);
 // number
-// let age : number =100
-// console.log(age);
-//Boolean
-// let isActive : boolean = true
-// console.log(isActive);
-// let data : any = "hello"
-// data = false
-// data = 100
-// console.log(data);
+let age : number =100
+console.log(age);
+// Boolean
+let isActive : boolean = true
+console.log(isActive);
+let data : any = "hello"
+data = false
+data = 100
+console.log(data);
 
 
-//unKnown
-// let data : unknown = 'world'
-// if(typeof data ==='string'){
-//     console.log(data.toUpperCase());
-// }
-//ARRAY
-// number Array
-// let numbers : number[] =[1,2,3,4]
-// console.log(numbers);
-// let str : string[] =['apple','orange','kiwi']
-// console.log(str);
-// let active : boolean[]=[true,false,true]
-// console.log(active)
-// mixed Array
-// let arr : any[] =['hello',100,true]
-// console.log(arr);
+// unKnown
+let data : unknown = 'world'
+if(typeof data ==='string'){
+    console.log(data.toUpperCase());
+}
+// ARRAY
+number Array
+let numbers : number[] =[1,2,3,4]
+console.log(numbers);
+let str : string[] =['apple','orange','kiwi']
+console.log(str);
+let active : boolean[]=[true,false,true]
+console.log(active)
+mixed Array
+let arr : any[] =['hello',100,true]
+console.log(arr);
 
-//Tuple
-// let data  : [string , number]=['roy',20]
-// console.log(data)   ;
-// let data : [string , number ,boolean]=['roy',20,true]
-// console.log(data);
+// Tuple
+let data  : [string , number]=['roy',20]
+console.log(data)   ;
+let data : [string , number ,boolean]=['roy',20,true]
+console.log(data);
 
-///Object
-// let user :{
-//     name : string,
-//     age : number 
-// }={
-//     name : 'jishnu',
+// /Object
+let user :{
+    name : string,
+    age : number 
+}={
+    name : 'jishnu',
 
-//     age : 50
-// }
+    age : 50
+}
 
-// console.log(user)
+console.log(user)
 
 // Functions
 // normal function 
 // Addtion
 
-// function add(a:number,b :number):number{
-//     return a + b
+function add(a:number,b :number):number{
+    return a + b
 
 
-// }
-// console.log(add(5,10));
-//multiplication
-// function add (a:number , b :number):number{
-//     return a * b
+}
+console.log(add(5,10));
+// multiplication
+function add (a:number , b :number):number{
+    return a * b
 
 
-// }
-// console.log(add(5,10));
+}
+console.log(add(5,10));
 // Void
 // function  greet():void{
 //     console.log('hello');
 // }
 // greet()
 
-// optional parameter
+// // optional parameter
 // function user(name : string, age ?: number): void{
 //     console.log(name);
 //     console.log(age);
@@ -91,7 +91,7 @@
 // data =7637
 // data = true
 // console.log(data)
-//union type in function
+// union type in function
 // function display(value : string | number | boolean):void{
 //     console.log(value);
 // }
@@ -99,7 +99,7 @@
 // display(2000)
 // display(true)    
 // literal type
-//literal type allows only specific 
+// literal type allows only specific 
 // let role : "admin" | "user"
 // role ="user"
 // console.log(role);
@@ -107,7 +107,7 @@
 // fruits ="Banana"
 // console.log(fruits)
 
-//numbers literals
+// // numbers literals
 
 // let dice : 1|2|3|4|5|6
 // dice=6
@@ -121,13 +121,13 @@
 // isActive =true
 // console.log(isActive);
 
-//Null
+// // Null
 // let value : null=null
 // console.log(value);
-// Undefined
+// // Undefined
 // let  value : undefined = undefined
 // console.log(value)
-//Basic Interface
+// // Basic Interface
 // interface User{
 //     name : string;
 //     age : number;
@@ -137,8 +137,8 @@
 //     age : 25
 // };
 // console.log(user)
-//Optional Properties
-//properties are not required
+// // Optional Properties
+// // properties are not required
 // interface Employee{
 //     name : string;
 //     salary? : number;
@@ -148,7 +148,7 @@
 
 // };
 // console.log(employee)
-//Interface with function
+// Interface with function
 // interface Add{
 //     (a : number,b:number):number;
 
